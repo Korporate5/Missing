@@ -9,10 +9,10 @@
   "NFT_NAME": "Missing Sock",
   "SYMBOL": "MS",
   "MAX_SUPPLY": 10000,
-  "WEI_COST": 8000000000000000000,
+  "WEI_COST": 150000000000000000000,
   "DISPLAY_COST": 150,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/missing-sock-v2",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/missingsocksnft",
   "SHOW_BACKGROUND": true
 }
