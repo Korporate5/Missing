@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xBc7cEc8f35db67494e983e763c548AF323a5CB77",
+  "SCAN_LINK": "https://polygonscan.com/address/0xbc7cec8f35db67494e983e763c548af323a5cb77",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Missing Sock",
+  "SYMBOL": "MS",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 4000000000000000000,
+  "DISPLAY_COST": 4,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/missing-sock-v2",
+  "SHOW_BACKGROUND": true
+}
