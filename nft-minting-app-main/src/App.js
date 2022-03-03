@@ -240,24 +240,34 @@ function App() {
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
             </s.TextDescription>
+                 <span
+              style={{
+                textAlign: "center",
+              }}
+            >
+              <StyledButton
+                onClick={(e) => {
+                  window.open("/config/roadmap.pdf", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                Roadmap
+              </StyledButton>
+              <StyledButton
+                style={{
+                  margin: "5px",
+                }}
+                onClick={(e) => {
+                  window.open(CONFIG.MARKETPLACE_LINK, "_blank");
+                }}
+              >
+                {CONFIG.MARKETPLACE}
+              </StyledButton>
+            </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
-              <>
-                <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  The sale has ended.
-                </s.TextTitle>
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  You can still find {CONFIG.NFT_NAME} on
-                </s.TextDescription>
-                <s.SpacerSmall />
-                <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
-                  {CONFIG.MARKETPLACE}
-                </StyledLink>
-              </>
               <>
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
